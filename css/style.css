@@ -18,11 +18,44 @@ p {
   font-size: 1rem;
 }
 
+.userCardsContainer {
+  display: flex;
+  /* flex-wrap: wrap-reverse; */
+  border: 2px solid red;
+  /* flex-flow: row wrap-reverse; */
+}
+
+.flexChild1 {
+  /* flex-grow: 1; */
+  /* flex-shrink: 1; */
+  flex-basis: 350px;
+}
+
+.flexChild2 {
+  /* flex-grow: 2; */
+  /* flex-shrink: 2; */
+  flex-basis: 350px;
+}
+
+.flexChild3 {
+  /* flex-grow: 7; */
+  /* flex-shrink: 7; */
+  flex-basis: 350px;
+  /* order: -1; */
+  /* flex: flex-grow flex-shrink flex-basis; */
+}
+
 .userCard {
+  /* flex-child-props */
+  /* flex-grow: 1;
+  flex-basis: 250px; */
+
+  /*  */
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 10px auto;
+  /* margin: 10px; */
+  /* margin: 10px auto; */
   border: 1px solid #13879a;
   width: 100%;
   min-width: 200px;
@@ -93,6 +126,7 @@ p {
   padding: 10px 0;
   background-color: var(--main-color);
   color: white;
+  margin-top: auto;
 }
 
 .cardFooter i + i {
