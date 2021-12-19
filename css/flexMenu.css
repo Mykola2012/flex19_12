@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+.mainHeader > nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+.mainHeader > nav > * {
+  flex-grow: 0.5;
+}
+
+.logoLink {
+  display: block;
+  width: 150px;
+  height: 90px;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.mainHeader img {
+  /* width: 100%; */
+  /* height: 100%; */
+  width: 150px;
+  height: auto;
+  object-fit: cover;
+}
+
+.navList {
+  white-space: nowrap;
+  text-align: right;
+}
+
+.navList li {
+  display: inline-block;
+}
+
+.linkItem > a {
+  display: block;
+  padding: 10px;
+  border: 2px solid red;
+  margin-left: auto;
+}
