@@ -6,7 +6,7 @@
 }
 
 .mainHeader {
-  background-color: grey;
+  background-color: black;
   width: 100%;
 }
 
@@ -28,14 +28,15 @@ ul > li + li {
   margin-left: 40px;
 }
 
-nav > img {
+nav > a > img {
   max-width: 100x;
   max-height: 60px;
+  object-fit: cover;
 }
 
-.networkLink > a {
+a {
   text-decoration: none;
-  color: white;
+  color: inherit;
 }
 
 .networkLink > a + a {
